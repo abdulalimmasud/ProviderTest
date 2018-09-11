@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>109b3238-808c-4db6-bee3-b3b73a60f2b5</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Apis" Version="1.35.1" />
     <PackageReference Include="Google.Apis.Gmail.v1" Version="1.35.1.1328" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.Net.Compilers" Version="2.8.2" />

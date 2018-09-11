@@ -11695,7 +11695,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Google.Apis >= 1.35.1",
       "Google.Apis.Gmail.v1 >= 1.35.1.1328",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -11703,26 +11702,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alim\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "G:\\test\\AlimProviderProject\\AlimProviderProject\\AlimProviderProject.csproj",
+      "projectUniqueName": "E:\\Practice\\.NetCore 2.1\\ProviderTest\\AlimProviderProject\\AlimProviderProject.csproj",
       "projectName": "AlimProviderProject",
-      "projectPath": "G:\\test\\AlimProviderProject\\AlimProviderProject\\AlimProviderProject.csproj",
-      "packagesPath": "C:\\Users\\Alim\\.nuget\\packages\\",
-      "outputPath": "G:\\test\\AlimProviderProject\\AlimProviderProject\\obj\\",
+      "projectPath": "E:\\Practice\\.NetCore 2.1\\ProviderTest\\AlimProviderProject\\AlimProviderProject.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "E:\\Practice\\.NetCore 2.1\\ProviderTest\\AlimProviderProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11730,8 +11726,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/aspnet-contrib/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -11747,28 +11742,24 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Microsoft.Net.Compilers": {
-            "target": "Package",
-            "version": "2.8.2"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.1.0",
-            "autoReferenced": true
-          },
           "Google.Apis.Gmail.v1": {
             "target": "Package",
-            "version": "1.35.1.1328"
+            "version": "[1.35.1.1328, )"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.1",
+            "version": "[2.1.1, )",
             "autoReferenced": true
           },
-          "Google.Apis": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.35.1"
+            "version": "[2.1.0, )",
+            "autoReferenced": true
+          },
+          "Microsoft.Net.Compilers": {
+            "target": "Package",
+            "version": "[2.8.2, )"
           }
         },
         "imports": [
