@@ -1,0 +1,471 @@
+﻿[
+  {
+    "mailObject": {
+      "folders": [
+        {
+          "displayName": "Archive",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 0,
+          "totalItemCount": 0,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBTAAAAA=="
+        },
+        {
+          "displayName": "Conversation History",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 1,
+          "unreadItemCount": 0,
+          "totalItemCount": 7,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgAuAAAAAABvJZpgpeboRZ-ZaqDqpFJPAQBfEwCSDn5QSYA_3Z1wsCuqAAAC1fiZAAA="
+        },
+        {
+          "displayName": "Deleted Items",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 649,
+          "totalItemCount": 747,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCgAAAA=="
+        },
+        {
+          "displayName": "Drafts",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 0,
+          "totalItemCount": 3,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBDwAAAA=="
+        },
+        {
+          "displayName": "Inbox",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 2,
+          "totalItemCount": 33,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBDAAAAA=="
+        },
+        {
+          "displayName": "Junk Email",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 0,
+          "totalItemCount": 0,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBHQAAAA=="
+        },
+        {
+          "displayName": "Outbox",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 0,
+          "totalItemCount": 0,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCwAAAA=="
+        },
+        {
+          "displayName": "Sent Items",
+          "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCAAAAA==",
+          "childFolderCount": 0,
+          "unreadItemCount": 0,
+          "totalItemCount": 3,
+          "id": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBCQAAAA=="
+        }
+      ],
+      "messages": [
+        {
+          "receivedDateTime": "2018-09-05T06:53:58+00:00",
+          "hasAttachments": true,
+          "subject": "Disbursed salary for month of Aug – 2018",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Suyen Khan",
+              "address": "sk@hoxro.com"
+            }
+          },
+          "isRead": false,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEVfsZSAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEVlDa6\""
+        },
+        {
+          "receivedDateTime": "2018-09-04T03:43:41+00:00",
+          "hasAttachments": false,
+          "subject": "Task done list between 13 to 31 Aug",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samnoon Mohebbo",
+              "address": "sm@hoxro.com"
+            }
+          },
+          "isRead": false,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEVfsZOAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEVlC7k\""
+        },
+        {
+          "receivedDateTime": "2018-08-13T07:08:41+00:00",
+          "hasAttachments": false,
+          "subject": "Completed Item on iteration under 29 july - 12 Aug",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samnoon Mohebbo",
+              "address": "sm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEGRbwtAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEGW6QS\""
+        },
+        {
+          "receivedDateTime": "2018-08-13T07:03:11+00:00",
+          "hasAttachments": false,
+          "subject": "Completed item on iteration 29 July - 12 Aug",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Tarek Miah",
+              "address": "tm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEGRbwsAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEGW6QO\""
+        },
+        {
+          "receivedDateTime": "2018-08-01T05:17:46+00:00",
+          "hasAttachments": false,
+          "subject": "Task and bugs has been resolved on iteration 13 july to 28 july",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samnoon Mohebbo",
+              "address": "sm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEAV2UtAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEAbd/l\""
+        },
+        {
+          "receivedDateTime": "2018-07-05T06:45:42+00:00",
+          "hasAttachments": true,
+          "subject": "Disbursed salary for month of June – 2018",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Suyen Khan",
+              "address": "sk@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADuQWV3AAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADuWJk4\""
+        },
+        {
+          "receivedDateTime": "2018-06-24T04:44:21+00:00",
+          "hasAttachments": true,
+          "subject": "1st festival bonus in 2018",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Suyen Khan",
+              "address": "sk@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADn6R3xAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADoAR5r\""
+        },
+        {
+          "receivedDateTime": "2018-06-19T16:45:20+00:00",
+          "hasAttachments": false,
+          "subject": "FW: [1-3773000019809] OAuth Developer Verification Form",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Tarek Miah",
+              "address": "tm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADk1yOBAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADk732z\""
+        },
+        {
+          "receivedDateTime": "2018-06-10T10:04:47+00:00",
+          "hasAttachments": false,
+          "subject": "Test102",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "hoxro@outlook.com",
+              "address": "hoxro@outlook.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADfHWvQAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADfNjvu\""
+        },
+        {
+          "receivedDateTime": "2018-06-10T09:11:46+00:00",
+          "hasAttachments": false,
+          "subject": "Re: Task Report ",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Tarek Miah",
+              "address": "tm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADfHWvNAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADfNjvf\""
+        },
+        {
+          "receivedDateTime": "2018-06-10T07:07:36+00:00",
+          "hasAttachments": false,
+          "subject": "Samnoon Mohebbo added you to the DevTeam group",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samnoon Mohebbo",
+              "address": "sm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADfHWvLAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADfNjvN\""
+        },
+        {
+          "receivedDateTime": "2018-06-10T06:58:56+00:00",
+          "hasAttachments": false,
+          "subject": "Task Report ",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samnoon Mohebbo",
+              "address": "sm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADfHWvKAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADfNjs0\""
+        },
+        {
+          "receivedDateTime": "2018-06-10T06:44:55+00:00",
+          "hasAttachments": false,
+          "subject": "Task Report",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Tarek Miah",
+              "address": "tm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADfHWvJAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADfNjsu\""
+        },
+        {
+          "receivedDateTime": "2018-06-07T05:46:29+00:00",
+          "hasAttachments": false,
+          "subject": "Disbursed salary for month of May – 2018",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Suyen Khan",
+              "address": "sk@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADcfsKBAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADcmCsv\""
+        },
+        {
+          "receivedDateTime": "2018-06-06T15:36:09+00:00",
+          "hasAttachments": false,
+          "subject": "Angular 8, 7, 6, 5, 4 and 2 JavaScript ASP Net C# SQL Knockout Kendo Interview: Angular Custom Form Validations –Email, Credit Card Number Validators",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Tarek Miah",
+              "address": "tm@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADcfsJ9AAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADcmCMO\""
+        },
+        {
+          "receivedDateTime": "2018-06-05T06:29:55+00:00",
+          "hasAttachments": false,
+          "subject": "RE: PR - 179 - HoxroApi 574 (Abdul Alim)",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samir Ahmed",
+              "address": "sa@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADaLe6FAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADaR6P0\""
+        },
+        {
+          "receivedDateTime": "2018-06-05T06:29:31+00:00",
+          "hasAttachments": false,
+          "subject": "RE: PR - 179 - HoxroApi 574 (Abdul Alim)",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samir Ahmed",
+              "address": "sa@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADaLe6EAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADaR6Pt\""
+        },
+        {
+          "receivedDateTime": "2018-06-05T06:26:04+00:00",
+          "hasAttachments": false,
+          "subject": "RE: PR - gitignore - HoxroApi 575 (Abdul Alim)",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samir Ahmed",
+              "address": "sa@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADaLe6DAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADaR6Pm\""
+        },
+        {
+          "receivedDateTime": "2018-06-05T06:23:26+00:00",
+          "hasAttachments": false,
+          "subject": "RE: PR - isbillable - HoxroApi 576 (Abdul Alim)",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samir Ahmed",
+              "address": "sa@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADaLe6CAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADaR6Pf\""
+        },
+        {
+          "receivedDateTime": "2018-06-05T06:22:45+00:00",
+          "hasAttachments": false,
+          "subject": "RE: PR - isbillable - HoxroApi 576 (Abdul Alim)",
+          "importance": "normal",
+          "from": {
+            "emailAddress": {
+              "name": "Samir Ahmed",
+              "address": "sa@hoxro.com"
+            }
+          },
+          "isRead": true,
+          "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAADaLe6BAAA=",
+          "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAADaR6PY\""
+        }
+      ],
+      "firstMail": {
+        "receivedDateTime": "2018-09-05T06:53:58+00:00",
+        "sentDateTime": "2018-09-05T06:53:57+00:00",
+        "hasAttachments": true,
+        "internetMessageId": "<LNXP265MB1692708311078D9FE84CCFE8CF020@LNXP265MB1692.GBRP265.PROD.OUTLOOK.COM>",
+        "subject": "Disbursed salary for month of Aug – 2018",
+        "body": {
+          "contentType": "html",
+          "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=Windows-1252\">\r\n<style type=\"text/css\" style=\"display:none\">\r\n<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n</style>\r\n</head>\r\n<body dir=\"ltr\">\r\n<div id=\"divtagdefaultwrapper\" dir=\"ltr\" style=\"font-size:12pt; color:#000000; font-family:Calibri,Helvetica,sans-serif\">\r\n<p style=\"margin-top:0; margin-bottom:0\"></p>\r\n<div>\r\n<p class=\"xxxxxmsonormal\" style=\"margin:0in; margin-bottom:.0001pt; background:white\">\r\n<span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black\">Salary for month of ‘Aug - 2018’ by Bank Transfer –<br>\r\n<br>\r\nName: Abdul Alim</span></p>\r\n<p class=\"xxxxxmsonormal\" style=\"margin:0in; margin-bottom:.0001pt; background:white; orphans:2; text-align:start; widows:2; word-spacing:0px\">\r\n<span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black\"><br>\r\nAmount: BDT 42,000 /=&nbsp;<br>\r\n<br>\r\nTransfer Date: 04/09/2018</span></p>\r\n</div>\r\n<br>\r\n<p></p>\r\n</div>\r\n</body>\r\n</html>\r\n"
+        },
+        "bodyPreview": "Salary for month of ‘Aug - 2018’ by Bank Transfer –\r\n\r\nName: Abdul Alim\r\n\r\nAmount: BDT 42,000 /=\r\n\r\nTransfer Date: 04/09/2018",
+        "importance": "normal",
+        "parentFolderId": "AQMkADY5NjFmNDBmLWRiYTQtNGNjAGQtYjJiZS0xNTFjZmQ1OGM3OGYALgAAA28lmmCl5uhFn9lqoOqkUk8BAF8TAJIOflBJgD7dnXCwK6oAAAIBDAAAAA==",
+        "sender": {
+          "emailAddress": {
+            "name": "Suyen Khan",
+            "address": "sk@hoxro.com"
+          }
+        },
+        "from": {
+          "emailAddress": {
+            "name": "Suyen Khan",
+            "address": "sk@hoxro.com"
+          }
+        },
+        "toRecipients": [
+          {
+            "emailAddress": {
+              "name": "t.miah@hoxro.co.uk",
+              "address": "t.miah@hoxro.co.uk"
+            }
+          }
+        ],
+        "ccRecipients": [
+          {
+            "emailAddress": {
+              "name": "Abdul Alim",
+              "address": "aa@hoxro.com"
+            }
+          }
+        ],
+        "bccRecipients": [],
+        "replyTo": [],
+        "conversationId": "AAQkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgAQACXnDsh8yiVAkGmw1sNJu4U=",
+        "isDeliveryReceiptRequested": false,
+        "isReadReceiptRequested": false,
+        "isRead": false,
+        "isDraft": false,
+        "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ%2FZaqDqpFJPBwBfEwCSDn5QSYA%2B3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA%2B3Z1wsCuqAAEVfsZSAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+        "inferenceClassification": "focused",
+        "flag": { "flagStatus": "notFlagged" },
+        "attachments": [
+          {
+            "name": "Alim.png",
+            "contentType": "image/png",
+            "isInline": false,
+            "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEVfsZSAAABEgAQAFsblLBNhw1LsNWOZlfD7-8=",
+            "@odata.type": "#microsoft.graph.fileAttachment"
+          }
+        ],
+        "createdDateTime": "2018-09-05T06:53:58+00:00",
+        "lastModifiedDateTime": "2018-09-05T06:53:59+00:00",
+        "changeKey": "CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEVlDa6",
+        "categories": [],
+        "id": "AAMkADY5NjFmNDBmLWRiYTQtNGNjZC1iMmJlLTE1MWNmZDU4Yzc4ZgBGAAAAAABvJZpgpeboRZ-ZaqDqpFJPBwBfEwCSDn5QSYA_3Z1wsCuqAAAAAAEMAABfEwCSDn5QSYA_3Z1wsCuqAAEVfsZSAAA=",
+        "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('508207c3-ac8a-4f56-ad25-76658eccd3cd')/mailFolders('Inbox')/messages/$entity",
+        "@odata.etag": "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEVlDa6\"",
+        "responseHeaders": {
+          "Cache-Control": [ "private" ],
+          "Date": [ "Tue, 11 Sep 2018 07:09:12 GMT" ],
+          "Transfer-Encoding": [ "chunked" ],
+          "ETag": [ "W/\"CQAAABYAAABfEwCSDn5QSYA+3Z1wsCuqAAEVlDa6\"" ],
+          "request-id": [ "30fd19ad-f248-42c8-939f-bfe7135b3cd8" ],
+          "client-request-id": [ "30fd19ad-f248-42c8-939f-bfe7135b3cd8" ],
+          "x-ms-ags-diagnostic": [ "{\"ServerInfo\":{\"DataCenter\":\"Southeast Asia\",\"Slice\":\"SliceC\",\"Ring\":\"3\",\"ScaleUnit\":\"001\",\"Host\":\"AGSFE_IN_17\",\"ADSiteName\":\"SEA\"}}" ],
+          "OData-Version": [ "4.0" ],
+          "Duration": [ "270.4983" ],
+          "Strict-Transport-Security": [ "max-age=31536000" ]
+        },
+        "statusCode": "OK"
+      }
+    },
+    "providerId": 4,
+    "providerName": "microsoft",
+    "refreshToken": "OAQABAAAAAADXzZ3ifr-GRbDT45zNSEFEiiAgzuvFI4Z13Y0iO4iWAhi2QYiqX8GqbqDS4J2QhNG7c1Womvl-bt1Q-jrxmpp0zO36dYxk2QdTl0_h0uehHKvCXvfh7U4VRwXNbfZ6kkoURzBUw441vqwMuf2mkSWplT6-jx8dK-FW-HTlDGm-6sSjzOc6oaELnTGdB97lUQTE2FFPSOoOK2kC72HdyOTLM26VXY0hC-HfK7wkbuB_QtuaN7--SFEuZh6rhD28iCTXK1yPzr2aqnyp99QvpmLTVwfX4aqYxNoOqDzvrqwnrkWOVQLMaZ-fYLOKnUhkmiNPe9FZfrS7rMTJR1y15WaxW4LSVEebkIxesvhLB6fOmjKVbEncNAKOU0SgkQh6Z4V39_1m9wls0uilYMtpyfqSzsoxkYx0MPHqEQtjWLRgi7STCz6y_TzsU4S4tfRUhJgVjnIB2h4b2kY3sU_cqCCmIcY_uH1l_wAPoIDmpYk4IyqNeIKWoNIwYmQuTyyclGkOwXgzoLy1gZHC5_xlbNZzpOQi7orT3SYFC4oq8skfsO7k7RLkBRLIKXoLTIspZUsqQSKrI5Z0YOQrYyJDQh5eXEJjgdNsfYAj84d4rz9BK3bXJr3rY29aMnR_IlBeu6stXXt6UNzVg7s05Cb367KqlgrH4UYTqSxHypT5-WBxyuPoOY0tDx2cR5a2A3eXvD2Wf3VzETHP9W_tHGRitfcXg6uWQYvM1MTVmqAtiJ7r2XJiD1V5pKwVInMUWU5GJhPIm_QTBeAA2lMA1FI_vWypG2RMOf1b21Xtfm6gfxuSM_ub5johMZrrMXxKnXb6GU0gAA",
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkFRQUJBQUFBQUFEWHpaM2lmci1HUmJEVDQ1ek5TRUZFU1Fkd3NpbjNqcnA4aEE2NVNLdUhmd3hMajcxbHp5dk9rS3VITENBUm9uV0pWeVltR3g5Zl9uUVdJc3FPRVVSQzV5aGgzSHhFN3B1UUdwNm9tRnotNXlBQSIsImFsZyI6IlJTMjU2IiwieDV0IjoiN19adWYxdHZrd0x4WWFIUzNxNmxValVZSUd3Iiwia2lkIjoiN19adWYxdHZrd0x4WWFIUzNxNmxValVZSUd3In0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83YjcxNjA3YS1iODJkLTRjYWUtYTQyOC01MGUyMjAzNWY0NzcvIiwiaWF0IjoxNTM2NjQ2NTU2LCJuYmYiOjE1MzY2NDY1NTYsImV4cCI6MTUzNjY1MDQ1NiwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IjQyQmdZR0I2dFlvaHpPSEw1R3FGVmlWdTVZZjIrUTlyZ3VhS1haSmh2My9GTW1DQzVRa0EiLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IkZpcm0tYXBwcyIsImFwcGlkIjoiZGZjNWE1NGYtNTljOC00OGQxLWE0NjYtNjYwZDExMTJkNTVjIiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJBbGltIiwiZ2l2ZW5fbmFtZSI6IkFiZHVsIiwiaXBhZGRyIjoiNDkuMC4zNC4xMzgiLCJuYW1lIjoiQWJkdWwgQWxpbSIsIm9pZCI6IjUwODIwN2MzLWFjOGEtNGY1Ni1hZDI1LTc2NjU4ZWNjZDNjZCIsInBsYXRmIjoiMyIsInB1aWQiOiIxMDAzM0ZGRkEyRjhDNkJGIiwic2NwIjoiQ2FsZW5kYXJzLlJlYWRXcml0ZSBNYWlsLlJlYWRXcml0ZSBNYWlsLlNlbmQgVXNlci5SZWFkIHByb2ZpbGUgb3BlbmlkIGVtYWlsIiwic2lnbmluX3N0YXRlIjpbImttc2kiXSwic3ViIjoiOWJPZmRrdWY1Q1ozYXRPdkpSWUQ1YmFQdVBsaUh5SnNTVW1nVGlrajNzWSIsInRpZCI6IjdiNzE2MDdhLWI4MmQtNGNhZS1hNDI4LTUwZTIyMDM1ZjQ3NyIsInVuaXF1ZV9uYW1lIjoiYWFAaG94cm8uY29tIiwidXBuIjoiYWFAaG94cm8uY29tIiwidXRpIjoiMGZBTjNQTU5GMEdfeGFqX3R6VW5BQSIsInZlciI6IjEuMCIsInhtc19zdCI6eyJzdWIiOiJIdzZLY2JibFlFanBKOG43MDZ3cUhlX0VOaU5rM3U1ZHBxdUlpTGI3Z3g4In19.Xk7IZFNM8O3Q_hnaxqs3RJRxlO_lTDmTQQYDTH4OevY714VaPjJJZLW76IN_Vf8-LUUif3vIqdu8HGSDL6LUvp5kZtqqlX7iKpsb4w3PafLNUAHSMRlsV3CVekVtyO4dL_OFeum3q6lsCb1ORiSceSzgpG1GlDmxwANfBJAfg7xJIzJ_fbPszGCdXUAXe_PFQC4jYpvu7FnZ4ZR0d4EHhZ83CRVT0g5ftx8jng4_7Ie0opIbnBpQiPc1uFXk8ynhKQmM_ezb6rgDBYXAWqWYB_u6PcZ9a3TsL6ieS0vU80cIat7jsegnMK2acwi7waVQgD8ak4nfO6iNq27tmqEjSQ",
+    "expiredIn": 3600.0,
+    "isPrimary": false,
+    "isOffline": false,
+    "tokenExpirationTime": "2018-09-11T07:20:55.88",
+    "email": "aa@hoxro.com",
+    "color": "url('../assets/images/mail-marker-blue.svg')",
+    "userId": 2,
+    "providerUserId": "",
+    "user": null,
+    "trackingState": 0,
+    "modifiedProperties": null,
+    "entityIdentifier": "00000000-0000-0000-0000-000000000000"
+  }
+]

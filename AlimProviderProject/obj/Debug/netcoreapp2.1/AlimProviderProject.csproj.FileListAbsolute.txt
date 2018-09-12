@@ -63,3 +63,4 @@ E:\Practice\.NetCore 2.1\ProviderTest\AlimProviderProject\obj\Debug\netcoreapp2.
 E:\Practice\.NetCore 2.1\ProviderTest\AlimProviderProject\obj\Debug\netcoreapp2.1\AlimProviderProject.pdb
 E:\Practice\.NetCore 2.1\ProviderTest\AlimProviderProject\obj\Debug\netcoreapp2.1\AlimProviderProject.csproj.CopyComplete
 E:\Practice\.NetCore 2.1\ProviderTest\AlimProviderProject\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+G:\test\AlimProviderProject\AlimProviderProject\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
