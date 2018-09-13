@@ -1,0 +1,13 @@
+﻿{
+  "accessRole": "reader",
+  "defaultReminders": [],
+  "description": null,
+  "etag": "\"p32ofn1v6q2rtq0g\"",
+  "items": [],
+  "kind": "calendar#events",
+  "nextPageToken": null,
+  "nextSyncToken": "CLiQ7KnMt90CEPDrxfXHt90CGAE=",
+  "summary": "Contacts",
+  "timeZone": "Asia/Dhaka",
+  "updated": "2018-09-13T08:48:26.835Z"
+}

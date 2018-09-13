@@ -1,0 +1,109 @@
+﻿{
+  "etag": "\"p33oenhflourtq0g\"",
+  "items": [
+    {
+      "accessRole": "owner",
+      "backgroundColor": "#9fe1e7",
+      "colorId": "14",
+      "conferenceProperties": {
+        "allowedConferenceSolutionTypes": [ "eventHangout" ],
+        "ETag": null
+      },
+      "defaultReminders": [
+        {
+          "method": "popup",
+          "minutes": 30,
+          "ETag": null
+        }
+      ],
+      "deleted": null,
+      "description": null,
+      "etag": "\"1484814792912000\"",
+      "foregroundColor": "#000000",
+      "hidden": null,
+      "id": "alimcu08@gmail.com",
+      "kind": "calendar#calendarListEntry",
+      "location": null,
+      "notificationSettings": {
+        "notifications": [
+          {
+            "method": "email",
+            "type": "eventCreation",
+            "ETag": null
+          },
+          {
+            "method": "email",
+            "type": "eventChange",
+            "ETag": null
+          },
+          {
+            "method": "email",
+            "type": "eventCancellation",
+            "ETag": null
+          },
+          {
+            "method": "email",
+            "type": "eventResponse",
+            "ETag": null
+          }
+        ]
+      },
+      "primary": true,
+      "selected": true,
+      "summary": "alimcu08@gmail.com",
+      "summaryOverride": null,
+      "timeZone": "Asia/Dhaka"
+    },
+    {
+      "accessRole": "reader",
+      "backgroundColor": "#92e1c0",
+      "colorId": "13",
+      "conferenceProperties": {
+        "allowedConferenceSolutionTypes": [ "eventHangout" ],
+        "ETag": null
+      },
+      "defaultReminders": [],
+      "deleted": null,
+      "description": null,
+      "etag": "\"1536823692448000\"",
+      "foregroundColor": "#000000",
+      "hidden": null,
+      "id": "#contacts@group.v.calendar.google.com",
+      "kind": "calendar#calendarListEntry",
+      "location": null,
+      "notificationSettings": null,
+      "primary": null,
+      "selected": true,
+      "summary": "Contacts",
+      "summaryOverride": null,
+      "timeZone": "Asia/Dhaka"
+    },
+    {
+      "accessRole": "reader",
+      "backgroundColor": "#16a765",
+      "colorId": "8",
+      "conferenceProperties": {
+        "allowedConferenceSolutionTypes": [ "eventHangout" ],
+        "ETag": null
+      },
+      "defaultReminders": [],
+      "deleted": null,
+      "description": null,
+      "etag": "\"1536823683478000\"",
+      "foregroundColor": "#000000",
+      "hidden": null,
+      "id": "en.bd#holiday@group.v.calendar.google.com",
+      "kind": "calendar#calendarListEntry",
+      "location": null,
+      "notificationSettings": null,
+      "primary": null,
+      "selected": true,
+      "summary": "Holidays in Bangladesh",
+      "summaryOverride": null,
+      "timeZone": "Asia/Dhaka"
+    }
+  ],
+  "kind": "calendar#calendarList",
+  "nextPageToken": null,
+  "nextSyncToken": "CPDrxfXHt90CEhJhbGltY3UwOEBnbWFpbC5jb20="
+}

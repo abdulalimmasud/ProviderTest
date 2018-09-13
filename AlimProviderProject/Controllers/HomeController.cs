@@ -20,11 +20,16 @@ using Google.Apis.Auth.OAuth2.Responses;
 using Google.Apis.Util;
 using System.Net;
 using System.Net.Mail;
+using MimeKit;
+using Google.Apis.Calendar.v3;
+using Google.Apis.Requests;
+using Google.Apis.Calendar.v3.Data;
 
 namespace AlimProviderProject.Controllers
 {
     public class HomeController : Controller
     {
+        static string[] _calendarScopes = { CalendarService.Scope.CalendarReadonly, CalendarService.Scope.Calendar };
         static string[] Scopes = { GmailService.Scope.GmailReadonly, GmailService.Scope.GmailLabels, GmailService.Scope.GmailModify, GmailService.Scope.GmailSend, GmailService.Scope.GmailCompose, GmailService.Scope.GmailInsert };
         static string ApplicationName = "AlimProviderProject";
         public HomeController()
@@ -45,7 +50,11 @@ namespace AlimProviderProject.Controllers
                 //LabelTest();
                 //ReadMessage();
                 //SendTest();
-                ForwardTest();
+                //ForwardTest();
+                //ReplyTest();
+                //CalendarTest();
+                AttachmentTest();
+
             }
             return View();
         }
@@ -136,7 +145,115 @@ namespace AlimProviderProject.Controllers
                 throw ex;
             }
         }
+        public void AttachmentTest()
+        {
+            try
+            {
+                ClientSecrets secrets = new ClientSecrets();
+                secrets.ClientId = GoogleApiCredential.GoogleClientId;
+                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
 
+                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
+                {
+                    ClientSecrets = secrets,
+                    Scopes = Scopes
+
+                });
+
+                TokenResponse token = new TokenResponse();
+                token.TokenType = "Bearer";
+                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
+                UserCredential credential = new UserCredential(flow, "me", token);
+                var service = new GmailService(new BaseClientService.Initializer()
+                {
+                    HttpClientInitializer = credential,
+                    ApplicationName = ApplicationName,
+                });
+                var getRequest = service.Users.Messages.Attachments.Get("me", "165c858574bdaa1b", "ANGjdJ-HZdjO8V1NC8A3_2NJ_9LtGUc11qZ-KGATsOmqMkdadqxAxan3k7pEblVlkRVaTtSbwEljPCdIV_HdIs2QOvRc5QccRxhSfglI7cU5N3FeB4jT8eybV9mNb3QuyU5vfNrIWraBYOvRCyz57Gyku5-MjtR4NMhH80pSKAvFGsqwBBuEvE9V-AZji0l1BeNu8eAM14u-1Q6BEm-Jtx8Ma1QpQuY1p2Qz9xiNO1jkfSEN-08X5WqESl282mfOkp77tkpPsXOhY_L_EymYgu1AU8OjY_v-PuklOW6e1RfDDGB1j1DgIkNMGI8q8YfoJEJszG4mwo3kt-TwCkUzxUeOJACBL5LlEputPUxy8H7L7j69Tm9p_tNu6227857o2cOZ0lg6AqMIbn65B82Q");
+                //getRequest.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Full;
+                //getRequest.MetadataHeaders = new Repeatable<string>(new[] { "Subject", "Date", "From", "Created at", "To", "Cc", "Bcc", "Body" });
+
+                var response = getRequest.Execute();
+                
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void ReplyTest()
+        {
+            try
+            {
+                ClientSecrets secrets = new ClientSecrets();
+                secrets.ClientId = GoogleApiCredential.GoogleClientId;
+                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
+
+                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
+                {
+                    ClientSecrets = secrets,
+                    Scopes = Scopes
+
+                });
+
+                TokenResponse token = new TokenResponse();
+                token.TokenType = "Bearer";
+                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
+                UserCredential credential = new UserCredential(flow, "me", token);
+                var service = new GmailService(new BaseClientService.Initializer()
+                {
+                    HttpClientInitializer = credential,
+                    ApplicationName = ApplicationName,
+                });
+
+                var getRequest = service.Users.Messages.Get("me", "165c858574bdaa1b");
+                getRequest.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Raw;
+                getRequest.MetadataHeaders = new Repeatable<string>(new[] { "Subject", "Message-ID", "From", "References", "To", "Cc", "Bcc", "Body" });
+                var response = getRequest.Execute();
+
+                byte[] readContent = FromBase64ForUrlString(response.Raw);
+                var readStream = new MemoryStream(readContent);
+                MimeMessage readMessage = MimeMessage.Load(readStream);
+
+                MailMessage mail = new MailMessage();
+                mail.Body = "This is reply body";
+                FileStream stream = System.IO.File.Open(@"G:\MatterFunctionalDesign.docx", FileMode.Open);
+                mail.Attachments.Add(new Attachment(stream, "test.docx"));
+                mail.To.Add(readMessage.From.ToString());
+
+                MimeMessage mimeMessage = MimeMessage.CreateFromMailMessage(mail);
+                mimeMessage.InReplyTo = readMessage.MessageId;
+                //mimeMessage.ReplyTo.AddRange(readMessage.To);
+                //mimeMessage.ReplyTo.AddRange(readMessage.Cc);
+                //mimeMessage.To.AddRange(readMessage.From);
+                //mimeMessage.Subject = "Re: " + readMessage.Subject;
+
+                //if (readMessage.References.Count > 0)
+                //{
+                //    mimeMessage.References.AddRange(readMessage.References);
+                //}
+                mimeMessage.References.Add(readMessage.MessageId);
+                //mimeMessage.Body = new TextPart("palin")
+                //{
+                //    Text = "This is reply body"
+                //};
+                //FileStream stream = System.IO.File.Open(@"G:\MatterFunctionalDesign.docx", FileMode.Open);
+                //MimeEntity entity = MimeEntity.Load(stream);
+
+                //mimeMessage.Attachments.ToList().Add(entity);
+               
+
+                Message message = new Message();
+                message.Raw = Base64UrlEncode(mimeMessage.ToString());
+
+                var resp = service.Users.Messages.Send(message, "me").Execute();
+                string res = JsonConvert.SerializeObject(resp);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void SendTest()
         {
             try
@@ -298,7 +415,42 @@ namespace AlimProviderProject.Controllers
                 labels.Labels[i] = service.Users.Labels.Get("me", labels.Labels[i].Id).Execute();
             }
         }
+        public async Task CalendarTest()
+        {
+            try
+            {
+                ClientSecrets secrets = new ClientSecrets();
+                secrets.ClientId = GoogleApiCredential.GoogleClientId;
+                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
 
+                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
+                {
+                    ClientSecrets = secrets,
+                    Scopes = _calendarScopes
+
+                });
+
+                TokenResponse token = new TokenResponse();
+                token.TokenType = "Bearer";
+                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
+                UserCredential credential = new UserCredential(flow, "me", token);
+                var service = new CalendarService(new BaseClientService.Initializer()
+                {
+                    HttpClientInitializer = credential,
+                    ApplicationName = ApplicationName,
+                });
+
+                //var calendars = await service.CalendarList.List().ExecuteAsync();
+
+                var events = await service.Events.List("#contacts@group.v.calendar.google.com").ExecuteAsync();
+
+                var response = JsonConvert.SerializeObject(events);
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
         public void Test()
         {
             try
