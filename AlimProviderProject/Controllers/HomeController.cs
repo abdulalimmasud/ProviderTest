@@ -29,9 +29,7 @@ namespace AlimProviderProject.Controllers
 {
     public class HomeController : Controller
     {
-        static string[] _calendarScopes = { CalendarService.Scope.CalendarReadonly, CalendarService.Scope.Calendar };
-        static string[] Scopes = { GmailService.Scope.GmailReadonly, GmailService.Scope.GmailLabels, GmailService.Scope.GmailModify, GmailService.Scope.GmailSend, GmailService.Scope.GmailCompose, GmailService.Scope.GmailInsert };
-        static string ApplicationName = "AlimProviderProject";
+        string _refreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
         public HomeController()
         {
             
@@ -53,7 +51,7 @@ namespace AlimProviderProject.Controllers
                 //ForwardTest();
                 //ReplyTest();
                 //CalendarTest();
-                AttachmentTest();
+                //AttachmentTest();
 
             }
             return View();
@@ -149,26 +147,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = Scopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                UserCredential credential = new UserCredential(flow, "me", token);
-                var service = new GmailService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GetGmailService(_refreshToken);
                 var getRequest = service.Users.Messages.Attachments.Get("me", "165c858574bdaa1b", "ANGjdJ-HZdjO8V1NC8A3_2NJ_9LtGUc11qZ-KGATsOmqMkdadqxAxan3k7pEblVlkRVaTtSbwEljPCdIV_HdIs2QOvRc5QccRxhSfglI7cU5N3FeB4jT8eybV9mNb3QuyU5vfNrIWraBYOvRCyz57Gyku5-MjtR4NMhH80pSKAvFGsqwBBuEvE9V-AZji0l1BeNu8eAM14u-1Q6BEm-Jtx8Ma1QpQuY1p2Qz9xiNO1jkfSEN-08X5WqESl282mfOkp77tkpPsXOhY_L_EymYgu1AU8OjY_v-PuklOW6e1RfDDGB1j1DgIkNMGI8q8YfoJEJszG4mwo3kt-TwCkUzxUeOJACBL5LlEputPUxy8H7L7j69Tm9p_tNu6227857o2cOZ0lg6AqMIbn65B82Q");
                 //getRequest.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Full;
                 //getRequest.MetadataHeaders = new Repeatable<string>(new[] { "Subject", "Date", "From", "Created at", "To", "Cc", "Bcc", "Body" });
@@ -185,26 +164,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = Scopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                UserCredential credential = new UserCredential(flow, "me", token);
-                var service = new GmailService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GetGmailService(_refreshToken);
 
                 var getRequest = service.Users.Messages.Get("me", "165c858574bdaa1b");
                 getRequest.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Raw;
@@ -258,26 +218,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = Scopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                UserCredential credential = new UserCredential(flow, "me", token);
-                var service = new GmailService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GetGmailService(_refreshToken);
 
                 MailMessage mail = new MailMessage();
                 mail.To.Add(new MailAddress("aa@hoxro.com"));
@@ -303,26 +244,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = Scopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                UserCredential credential = new UserCredential(flow, "me", token);
-                var service = new GmailService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GetGmailService(_refreshToken);
                 var getRequest = service.Users.Messages.Get("me", "165c1f98cb8e4795");
                 getRequest.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Raw;
                 getRequest.MetadataHeaders = new Repeatable<string>(new[] { "Subject", "Date", "From", "Created at", "To", "Cc", "Bcc", "Body" });
@@ -355,26 +277,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = Scopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                UserCredential credential = new UserCredential(flow, "me", token);
-                var service = new GmailService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GetGmailService(_refreshToken);
                 var getRequest = service.Users.Messages.Get("me", "165c858574bdaa1b");
                 getRequest.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Full;
                 getRequest.MetadataHeaders = new Repeatable<string>(new[] { "Subject", "Date", "From", "Created at", "To", "Cc", "Bcc", "Body" });
@@ -389,26 +292,7 @@ namespace AlimProviderProject.Controllers
         }
         public void LabelTest()
         {
-            ClientSecrets secrets = new ClientSecrets();
-            secrets.ClientId = GoogleApiCredential.GoogleClientId;
-            secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-            var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-            {
-                ClientSecrets = secrets,
-                Scopes = Scopes
-
-            });
-
-            TokenResponse token = new TokenResponse();
-            token.TokenType = "Bearer";
-            token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-            UserCredential credential = new UserCredential(flow, "me", token);
-            var service = new GmailService(new BaseClientService.Initializer()
-            {
-                HttpClientInitializer = credential,
-                ApplicationName = ApplicationName,
-            });
+            var service = SDKHelper.GetGmailService(_refreshToken);
             var labels = service.Users.Labels.List("me").Execute();
             for (int i = 0; i < labels.Labels.Count; i++)
             {
@@ -419,26 +303,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = _calendarScopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                UserCredential credential = new UserCredential(flow, "me", token);
-                var service = new CalendarService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GoogleCalendarService(_refreshToken);
 
                 //var calendars = await service.CalendarList.List().ExecuteAsync();
 
@@ -455,31 +320,7 @@ namespace AlimProviderProject.Controllers
         {
             try
             {
-                ClientSecrets secrets = new ClientSecrets();
-                secrets.ClientId = GoogleApiCredential.GoogleClientId;
-                secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
-
-                var flow = new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
-                {
-                    ClientSecrets = secrets,
-                    Scopes = Scopes
-
-                });
-
-                TokenResponse token = new TokenResponse();
-                token.TokenType = "Bearer";
-                //token.ExpiresInSeconds = 3600;
-                token.RefreshToken = "1/vJEXT-kecHgCupvniV5lSkLYyPUKFouagAWkQn2HDbs";
-                //token.IdToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ5NjQ4ZTAzMmNhYzU4NDI0ZTBkMWE3YzAzMGEzMTk4ZDNmNDZhZGIifQ.eyJhenAiOiIxMDE0ODUxNzY0OTEtOGc2Ymlpb2c5bGN1YjVnb2ViZ2RuZW8xdDRqazRob20uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMDE0ODUxNzY0OTEtOGc2Ymlpb2c5bGN1YjVnb2ViZ2RuZW8xdDRqazRob20uYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTQxNzY0NzkzOTgxMTQ2MTIxMTIiLCJlbWFpbCI6ImFsaW1jdTA4QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoicFpiazFDN2F5Z2h5c2JnVFhuZDRoUSIsImV4cCI6MTUzNjY0MTMxNiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwiaWF0IjoxNTM2NjM3NzE2fQ.epsXBxilHWUdhVBi_mbAtX0pMObeFcgHRL_NoxY0mNbdY0q85JQlwNM18Bg9010u8nLMzKI8IMaIfYibmGAULeoVkhBBLXpfdrKGc_9I0OJJy7gaeRy4Mrp_NfoAcbSffruQFKCgAKInHUT9Uq3Sa5Zqj7xAIyshVPO9AGGOo69sk3WoAqFNFz5W3IJTsjjaiD7ecQfOn9Htln10wTqvjQMzaue6q1VVk1MXdiQ_si4Yra4-6XWvo9kABX6IM9PWJsZjvDT-3FTZpdsVaUwLAQ7ZlEOlVVo1hMf9nK29R32BI8tymQa1pEuKUxcBTmgh8-H3vjtb7AkZO-TROHxhtg";
-                //token.AccessToken = "ya29.GlwVBncSrsZCyGm4-rRBTfqcIQsUpQeAOnxFIyXc3WAT5Kn5b_97VpIYCH0aUjyVfabLJOewVN5gK53n5El1ycwaR4WTX6Lr0oJ7SzUe0wUOXJUnbuayAw5rtYOsNg";
-
-                UserCredential credential = new UserCredential(flow, "me", token);
-                // Create Gmail API service. 
-                var service = new GmailService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
+                var service = SDKHelper.GetGmailService(_refreshToken);
 
                 var listRequest = service.Users.Messages.List("me");
                 listRequest.LabelIds = "INBOX";

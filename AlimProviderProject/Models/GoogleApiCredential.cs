@@ -7,6 +7,7 @@ namespace AlimProviderProject.Models
 {
     public class GoogleApiCredential
     {
+        public static string ApplicationName = "AlimProviderProject";
         public static string GoogleClientId = "101485176491-8g6biiog9lcub5goebgdneo1t4jk4hom.apps.googleusercontent.com";
         public static string GoogleCalendarId = "556735548508-jksv9ebhl9j29dllrfu8i3lt3809e4us.apps.googleusercontent.com";
         public static string GmailClientId = "556735548508-4hi427afgh00q53hmjgrht064qi6gnac.apps.googleusercontent.com";
