@@ -113,6 +113,7 @@ namespace AlimProviderProject.Models
         public static CalendarService GoogleCalendarService(string refreshToken)
         {
             ClientSecrets secrets = new ClientSecrets();
+            
             secrets.ClientId = GoogleApiCredential.GoogleClientId;
             secrets.ClientSecret = GoogleApiCredential.GoogleClientSecret;
 

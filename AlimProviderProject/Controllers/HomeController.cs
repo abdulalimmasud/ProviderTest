@@ -52,7 +52,7 @@ namespace AlimProviderProject.Controllers
                 //ReplyTest();
                 //CalendarTest();
                 //AttachmentTest();
-
+                var res = RefClass.AddCalenderEvents(_refreshToken, "#contacts@group.v.calendar.google.com");
             }
             return View();
         }
